@@ -1,0 +1,35 @@
+{
+  "name": "@neovici/wdio-vso-reporter",
+  "version": "1.0.0",
+  "description": "A WebdriverIO reporter plugin to log in Azure pipelines log format.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neovici/wdio-vso-reporter.git"
+  },
+  "keywords": [
+    "wdio",
+    "wdio-reporter",
+    "vso",
+    "azure"
+  ],
+  "author": "Cristian Necula <virusz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Neovici/wdio-vso-reporter/issues"
+  },
+  "homepage": "https://github.com/Neovici/wdio-vso-reporter#readme",
+  "dependencies": {
+    "@wdio/reporter": "^5.14.5",
+    "azure-pipelines-task-lib": "^2.9.3"
+  },
+  "peerDependencies": {
+    "@wdio/cli": "^5.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
